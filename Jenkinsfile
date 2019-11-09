@@ -7,5 +7,11 @@ pipeline {
       }
     }
     
+    stage('Compile-Package') {
+      steps {
+         sh 'mvn package'
+      }
+    }
+    
   }
 }
