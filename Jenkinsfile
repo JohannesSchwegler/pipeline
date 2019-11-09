@@ -6,10 +6,6 @@ pipeline {
         echo 'Hello World'
       }
     }
-    stage('git clone') {
-      steps {
-        git clone "https://github.com/JohannesSchwegler/pipeline"
-      }
-    }
+    
   }
 }
