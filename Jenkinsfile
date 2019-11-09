@@ -7,9 +7,9 @@ pipeline {
       }
     }
     
-    stage('Compile-Package') {
+    stage('Install') {
       steps {
-         bat 'mvn package'
+         bat 'mvn install'
       }
     }
     
